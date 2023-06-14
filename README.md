@@ -8,7 +8,7 @@ Tech stack used : GitHub/Jenkins/Terraform
 
 Cloud Provider : AWS 
 
-Ensoring files ignored through gitignore like  
+Ensuring files ignored through gitignore like  
         - terraform.tfvars
           **/.terraform/*
           *.tfstate
