@@ -31,10 +31,10 @@ pipeline {
     // post-build actions
     post{
        success{
-          echo "terraform ${TerraformAction} action successfully over"
+          echo "terraform ${params.TERRAFORM_ACTIONS} action successfully over"
         }
        failure{
-          echo "terraform ${TerraformAction} action FIALED check the required Pipeline conf or tf files"
+          echo "terraform ${params.TERRAFORM_ACTIONS} action FIALED check the required Pipeline conf or tf files"
         }
     }
 }
